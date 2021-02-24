@@ -38,7 +38,7 @@ So I use virtual keyword when declaring *TextInput* to lead to **Late Binding**.
 
 ## Complile and Run
     g++ -std=c++17 -o ex1.2 ex1.2.cpp -Wall
-    sudo ./ex1.1
+    sudo ./ex1.2
 ## Test cases
 | Case | Test | Result |
 | ---- | ---- | ---- |
