@@ -3,10 +3,11 @@
 #include <set>
 //concat vector str2 to set str1 (to remove duplicate element)
 void append_string(std::set<std::string>&str1, const std::vector<std::string>&str2) {
-    for(auto element : str2)
-    {
-       str1.insert(element);
-    }
+    // for(auto element : str2)
+    // {
+    //    str1.insert(element);
+    // }
+    str1.insert(str2.begin(), str2.end());
 }
 
 
