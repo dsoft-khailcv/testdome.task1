@@ -1,5 +1,6 @@
 ## Problem
 Implement the unique_names method. When passed two vectors of names, it will return a vector containing the names that appear in **either or both** vectors. The returned vector should have no duplicates.
+
 For example, calling *uniqe_names(std::vector<std:string>{"Ava", "Emma", "Olivia"}, std::vector<std::string>{"Olivia", "Sophia", "Emma"})* should return a vector containing Ava, Emma, Olivia, and Sophia in any orde
 #### Example
     #include <iostream>
@@ -29,6 +30,9 @@ For example, calling *uniqe_names(std::vector<std:string>{"Ava", "Emma", "Olivia
 Using ***set*** container ti concat string 2 into string 1 to remove duplicate names
 2. Using ***vector::assign*** function to assign std::set to std::vector
 
+## Complile and Run
+    g++ -std=c++17 -o ex1.1 ex1.1.cpp -Wall
+    sudo ./ex1.1
 ## Test cases
 | Case | Test | Input | Output | Result
 | ---- | ---- | ---- | ---- | ---- |
